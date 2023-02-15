@@ -19,5 +19,7 @@ from myapp import views
 urlpatterns = [
         path('', views.index)
     ,    path('create/', views.create)
+    ,    path('update/<id>/', views.update)
+    ,    path('delete/', views.delete)
     ,    path('read/<id>/', views.read)
 ]
